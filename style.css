@@ -22,7 +22,7 @@ nav{
 
 nav img{
     color: red;
-    width: 114px;
+    width: 130px;
     position: relative;
     z-index: 1;
 }
@@ -225,5 +225,35 @@ section.first > div :nth-child(2){
 
 .faqbox:hover{
     background-color: rgb(65,65,65);
+}
+
+/* Footer Section */
+footer{
+    color:  rgba(255,255,255,0.7);
+    max-width: 60vw;
+    margin: auto;
+    padding: 14px;
+    padding: 4.5rem 0;
+}
+
+.questions{
+    padding-bottom: 14px;
+}
+
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer a{
+    color:  rgba(255,255,255,0.7);
+    font-size: 14px;
+}
+
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
 }
 
