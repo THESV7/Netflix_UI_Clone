@@ -316,6 +316,11 @@ footer{
 
     .hero-buttons {
         flex-direction: column;
+        padding-bottom: 34px;
+    }
+
+    .btn-red {
+        font-size: 18px;
     }
 }
 
